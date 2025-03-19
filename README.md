@@ -56,15 +56,17 @@ Linux apps aren't always portable! Users want something that "just works" across
 # **The Elephant in the Room: Why AppImages?**
 
 - Why not Flatpak/Snaps? 
-Eg. Flatpak vs AppImage
-![bg](assets/flatpakvsappimage.png)
+Eg. Flatpak vs AppImage:
 <!-- Give supporting screenshots and thoughts -->
+---
+
+![bg](assets/flatpakvsappimage.png)
 
 ---
 
 When I spoke to Samuel about this, he said:
-![bg left:40% 80%](build/assets/samuel-update.png)
-![bg right:40% 80%](build/assets/samuel-on-ghostty.png)
+![bg left:40% 80%](assets/samuel-update.png)
+![bg right:40% 80%](assets/samuel-on-ghostty.png)
 
 ---
 
