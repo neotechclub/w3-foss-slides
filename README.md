@@ -67,8 +67,8 @@ Eg. Flatpak vs AppImage:
 ---
 
 When I spoke to Samuel about this, he said:
-![bg left:40% 240%](assets/samuel-update.png)
-![bg right:40% 240%](assets/samuel-on-ghostty.png)
+![left:120% 240%](assets/samuel-update.png)
+![right:40% 240%](assets/samuel-on-ghostty.png)
 
 ---
 
