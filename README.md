@@ -97,7 +97,7 @@ https://itsfoss.com/appimage-interview/
 <!-- This will set up all the files we need automatically along with a dynamic linker - this means we can avoid rpath or patchelf shenanigans
  -->
 ---
-# **Quick Breakdown of AppImages: File Structure**
+# **Quick Look at AppImages: File Structure**
 When working with lib4bin, we end up with a file structure like this:
 - *AppDir*
     - path/to/my/bins eg. `AppDir/shared/bin/pixelpulse2`
