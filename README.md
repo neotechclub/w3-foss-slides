@@ -102,6 +102,7 @@ When working with lib4bin, we end up with a file structure like this:
 - *AppDir*
     - path/to/my/bins eg. `AppDir/shared/bin/pixelpulse2`
     - path/to/my/libs eg. `AppDir/shared/lib/libsmu.so`
+    - `AppRun` file
     - icon file
     - desktop file
 And more libraries automatically picked up by lib4bin
