@@ -43,19 +43,41 @@ https://marp.app/
 
 --- 
 
-# **AppImages and their History**
-
+# **AppImages and their History: probonopd**
+- The AppImage project was initially made by Simon Peter, who was really interested in the “one app = one file” idea
+- Here's an interview by Abhishek from IT'S FOSS 
+https://itsfoss.com/appimage-interview/
+![bg left:40% 80%](https://avatars.githubusercontent.com/u/2480569?v=4)
 ---
 
-# **Quick Technical Breakdown of AppImages**
+# **AppImages and their History: probonopd**
+- Also made go-appimage which can be used to make static binaries, though we'll take a slightly different approach
+- Also responsible for type2-runtime which normal AppImages use to execute the App Binaries, though we'll take a slightly different approach again
+--- 
+
+# **AppImages and their History: PkgForge**
+<!-- - Not just limited to AppImages but also other static and self-contained binaries-->
+
+--- 
+# **Quick Technical Breakdown of AppImages: File Structure**
+
+--- 
+## **The Dynamic Linker**
 
 --- 
 ## **Quick Breakdown of sharun, lib4bin and the AppRun File**
+<!-- Run the app, lib4bin -->
+--- 
+# **Pixelpulse2: Backstory**
 
 --- 
-# **Pixelpulse2**
+# **Pixelpulse2: Initial Build**
 
 --- 
+# **Pixelpulse2: Modernization**
+
+--- 
+
 # **Soar, and other distribution methods**
 
 --- 
@@ -64,3 +86,6 @@ https://marp.app/
 
 --- 
 # **Live Demo Time! Making a quick Soar Package**
+
+--- 
+# **Credits**
