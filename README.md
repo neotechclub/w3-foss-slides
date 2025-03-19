@@ -15,20 +15,16 @@ With Self-Packaged Linux Apps
 --- 
 
 # **About Me**
+![bg right:40% 80%](https://avatars.githubusercontent.com/u/84176052?v=4)
+Speaker: Souhrud Reddy
+
+About me: A linux enthusiast in my spare time
+
+Also a package maintainer for Soar, for Pixelpulse2
+
+My Website: https://sounddrill31.github.io
+
 --- 
-## **This Presentation was made completely with MarkDown thanks to Marp!**
-
-https://marp.app/
-
-<!--We will cover the basics like what are there, how it works(quick overview, quick technical breakdown, story of pixelpulse2, further explanation on how it works, soarpkgs, how to get it merged)-->
-
-<!-- Why this, why not that? First for AppImages, then sharun, then soar -->
-<!-- Live preview if possible of Pixelpulse2 -->
-
-<!-- porting of an App, from idea, research, adapting an old package to new setup -->
-
----
-
 # **Topics Covered**
 - Why is any of this needed?
 - AppImages - What, how and why?
@@ -40,8 +36,37 @@ https://marp.app/
 --- 
 
 # **Quick Overview**
+In this presentation, we'll explore Modern AppImages, the Soar Package Manager and how dependencies are handled. 
+
+This will not be a technical deep-dive, just a quick demonstration.
 
 --- 
+
+# **The Elephant in the Room: Why?**
+Linux apps aren't always portable! Users want something that "just works" across any distro they install, be it Ubuntu, Debian, PopOS, Arch, or even Alpine Linux
+
+<sub>(Image by SEO Galaxy at [Unsplash](https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA))</sub>
+<!--Fumbling with solutions is not a good look, neither are huge installs -->
+<!-- Users load linux to escape bloat, not cause them -->
+
+![bg left:40% 80%](https://images.unsplash.com/photo-1709718499883-7267d6ffae9c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+---
+
+# **The Elephant in the Room: Why AppImages?**
+
+- Why not Flatpak/Snaps? 
+Eg. Flatpak vs AppImage
+![bg](assets/flatpakvsappimage.png)
+<!-- Give supporting screenshots and thoughts -->
+
+---
+
+When I spoke to Samuel about this, he said:
+![bg left:40% 80%](build/assets/samuel-update.png)
+![bg right:40% 80%](build/assets/samuel-on-ghostty.png)
+
+---
 
 # **AppImages and their History: probonopd**
 - The AppImage project was initially made by Simon Peter, who was really interested in the “one app = one file” idea
@@ -59,15 +84,28 @@ https://itsfoss.com/appimage-interview/
 <!-- - Not just limited to AppImages but also other static and self-contained binaries but this one will focus on AppImages-->
 
 --- 
-# **Quick Technical Breakdown of AppImages: File Structure**
-
---- 
 ## **The Dynamic Linker**
 
 --- 
 ## **Quick Breakdown of sharun, lib4bin and the AppRun File**
 <!-- Run the app, lib4bin -->
---- 
+
+<!-- This will set up all the files we need automatically along with a dynamic linker - this means we can avoid rpath or patchelf shenanigans
+ -->
+---
+# **Quick Breakdown of AppImages: File Structure**
+When working with lib4bin, we end up with a file structure like this:
+- *AppDir*
+    - path/to/my/bins eg. `AppDir/shared/bin/pixelpulse2`
+    - path/to/my/libs eg. `AppDir/shared/lib/libsmu.so`
+    - icon file
+    - desktop file
+And more libraries automatically picked up by lib4bin
+
+<!--not needed if we're not doing anything special or copying over files, -->
+
+
+---
 # **Pixelpulse2: Backstory**
 
 --- 
@@ -82,10 +120,21 @@ https://itsfoss.com/appimage-interview/
 
 --- 
 
-# **Live Demo Time! Making a quick AppImage**
-
+# **Live Demo Time! Making a quick AppImage!**
+<!-- Quick flow, mermaid diagram -->
 --- 
+# **Another Small change: uruntime**
+<!--Uruntime, what why how-->
+---
 # **Live Demo Time! Making a quick Soar Package**
 
 --- 
 # **Credits**
+
+--- 
+--- 
+## **This Presentation was made completely with MarkDown thanks to Marp!**
+
+https://marp.app/
+
+View the slides: https://sounddrill31.github.io/FOSSUnited-Slides-AppImages/
