@@ -56,7 +56,9 @@ Linux apps aren't always portable! Users want something that "just works" across
 # **The Elephant in the Room: Why AppImages?**
 
 - Why not Flatpak/Snaps? 
-Eg. Flatpak vs AppImage:
+Eg. Flatpak vs AppImage: 
+
+<sub>Image from https://github.com/prusa3d/PrusaSlicer/issues/13653#issuecomment-2500109771</sub>
 <!-- Give supporting screenshots and thoughts -->
 ---
 
@@ -65,8 +67,8 @@ Eg. Flatpak vs AppImage:
 ---
 
 When I spoke to Samuel about this, he said:
-![bg left:40% 80%](assets/samuel-update.png)
-![bg right:40% 80%](assets/samuel-on-ghostty.png)
+![bg left:40% 240%](assets/samuel-update.png)
+![bg right:40% 240%](assets/samuel-on-ghostty.png)
 
 ---
 
