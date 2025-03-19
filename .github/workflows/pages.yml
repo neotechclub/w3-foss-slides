@@ -44,8 +44,6 @@ jobs:
           node-version: 20
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Install dependencies
-        run: npm ci # or pnpm install / yarn install / bun install
       - name: Build with Marp.App
         run: npx @marp-team/marp-cli@latest README.md -o build/README.html; mv build/README.html build/index.html
       - name: Upload artifact
