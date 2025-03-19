@@ -56,7 +56,7 @@ https://itsfoss.com/appimage-interview/
 --- 
 
 # **AppImages and their History: PkgForge**
-<!-- - Not just limited to AppImages but also other static and self-contained binaries-->
+<!-- - Not just limited to AppImages but also other static and self-contained binaries but this one will focus on AppImages-->
 
 --- 
 # **Quick Technical Breakdown of AppImages: File Structure**
