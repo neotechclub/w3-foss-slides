@@ -13,8 +13,10 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 With Self-Packaged Linux Apps
 
 --- 
+# **About The PkgForge Team**
 
-# **About Us**
+---
+# **About The Presenters**
 ![bg right:40% 80%](https://avatars.githubusercontent.com/u/84176052?v=4)
 Speaker: Souhrud Reddy
 
@@ -25,7 +27,7 @@ Also a package maintainer for Soar, for Pixelpulse2
 My Website: https://sounddrill31.github.io
 
 --- 
-# **About Us**
+# **About The Presenters**
 <!--![bg left:40% 80%](https://avatars.githubusercontent.com/u/84176052?v=4) -->
 Speaker: Aditya
 
@@ -53,8 +55,11 @@ This will not be a technical deep-dive, just a quick demonstration.
 --- 
 
 # **The Elephant in the Room: Why?**
-Linux apps aren't always portable! Users want something that "just works" across any distro they install, be it Ubuntu, Debian, PopOS, Arch, or even Alpine Linux
+New users want something that "just works" across any distro they install, be it Ubuntu, Debian, PopOS, Arch, or even Alpine Linux
 
+<!-- You can use this to quickly install and run static apps on any linux distro -->
+
+<!--This is comparable to Homebrew-->
 
 <sub>(Image by SEO Galaxy at [Unsplash](https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA))</sub>
 <!--Fumbling with solutions is not a good look, neither are huge installs -->
@@ -63,13 +68,16 @@ Linux apps aren't always portable! Users want something that "just works" across
 ![bg left:40% 80%](https://images.unsplash.com/photo-1709718499883-7267d6ffae9c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
-# **The Elephant in the Room: Why Soar?**
+# **The Elephant in the Room: Why soar?**
+"Why would I use soar over existing solutions?"
+TODO: Fill
+<sub>Image from XKCD, Ch 927 "STANDARDS"</sub>
+![bg right:40% 80%](https://imgs.xkcd.com/comics/standards.png)
 
 ---
+# **Another Elephant in the Room: Why AppImages?**
 
-# **The Elephant in the Room: Why AppImages?**
-
-- Why not Flatpak/Snaps? 
+- Why not just use Flatpak/Snaps and avoid all of this? 
 Eg. Flatpak vs AppImage: 
 
 <sub>Image from https://github.com/prusa3d/PrusaSlicer/issues/13653#issuecomment-2500109771</sub>
