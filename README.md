@@ -90,7 +90,7 @@ graph LR
 
 <style>
   .mermaid svg {
-    width: 100%;
+    width: 200%;
     height: auto;
   }
 </style>
