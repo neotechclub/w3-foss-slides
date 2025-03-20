@@ -88,6 +88,13 @@ graph LR
     A[Install soar] --> B[Install app] --> C[Run app]
 </div>
 
+<style>
+  .mermaid svg {
+    width: 100%;
+    height: auto;
+  }
+</style>
+
 ---
 # **Quick Live Demo! Using soar and Installing Apps**
 Installing Guide: https://soar.qaidvoid.dev/installation#install-script
