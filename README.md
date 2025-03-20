@@ -75,6 +75,12 @@ TODO: Fill
 ![bg right:40% 80%](https://imgs.xkcd.com/comics/standards.png)
 
 ---
+# **How to use soar?**
+
+---
+# **Quick Live Demo! Using soar and Installing Apps**
+
+---
 # **Another Elephant in the Room: Why AppImages?**
 
 - Why not just use Flatpak/Snaps and avoid all of this? 
@@ -93,10 +99,7 @@ When I spoke to Samuel about this, he said:
 ![right:40% 240%](assets/samuel-on-ghostty.png)
 
 ---
-# **Quick Live Demo! Using soar and Installing Apps**
-
----
-# **Live Demo Time! Making a quick Soar Package**
+# **Live Demo Time! Making a quick soar Package using SBUILD**
 
 --- 
 # **Credits**
