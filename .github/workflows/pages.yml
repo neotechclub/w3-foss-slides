@@ -45,7 +45,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Marp.App
-        run: npx @marp-team/marp-cli@latest README.md -o build/README.html; mv build/README.html build/index.html
+        run: npx @marp-team/marp-cli@latest --html README.md -o build/README.html; mv build/README.html build/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

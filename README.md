@@ -79,9 +79,10 @@ This helps you load completely portable packages that are independent from your 
 
 ---
 # **How to use soar?**
-<!-- mermaid.js -->
-<script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.5.0/+esm';
+  mermaid.initialize({ startOnLoad: true });
+</script>
 <div class="mermaid">
 graph LR
     A[Install soar] --> B[Install app] --> C[Run app]
