@@ -12,6 +12,8 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 
 With Self-Packaged Linux Apps
 
+<sub>Providing a Quick, Easy and Painless Experience</sub>
+
 --- 
 # **About The PkgForge Team**
 
@@ -42,7 +44,7 @@ My Website:
 - Why is any of this needed?
 - soar and PkgForge
 - A Brief Look at AppImages
-- SBUILD, soar's yml based package listing format
+- `.SBUILD`, soar's yaml based package listing format
 
 
 --- 
@@ -70,15 +72,30 @@ New users want something that "just works" across any distro they install, be it
 ---
 # **The Elephant in the Room: Why soar?**
 "Why would I use soar over existing solutions?"
-TODO: Fill
+Soar doesn't attempt to replace your OS level package manager(like apt, dnf, etc)
+This helps you load completely portable packages that are independent from your OS install!
 <sub>Image from XKCD, Ch 927 "STANDARDS"</sub>
 ![bg right:40% 80%](https://imgs.xkcd.com/comics/standards.png)
 
 ---
 # **How to use soar?**
+<!-- mermaid.js -->
+<script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+<div class="mermaid">
+graph LR
+    A[Install soar] --> B[Install app] --> C[Run app]
+</div>
 
 ---
 # **Quick Live Demo! Using soar and Installing Apps**
+Installing Guide: https://soar.qaidvoid.dev/installation#install-script
+Directly Running Apps without installing beforehand: `soar run appname`
+
+Installing Apps to System: `soar install appname`
+- Running the installed app: `appname`
+
+It's. That. Simple. 
 
 ---
 # **Another Elephant in the Room: Why AppImages?**
@@ -102,9 +119,9 @@ When I spoke to Samuel about this, he said:
 # **Live Demo Time! Making a quick soar Package using SBUILD**
 
 --- 
-# **Credits**
+<!--# **Credits**
 
---- 
+--- --->
 --- 
 ## **This Presentation was made completely with MarkDown thanks to Marp!**
 
