@@ -83,7 +83,7 @@ This helps you load completely portable packages that are independent from your 
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.5.0/+esm';
   mermaid.initialize({ startOnLoad: true });
 </script>
-<div class="mermaid">
+<div class="mermaid" style="display: flex; justify-content: center;">
 graph LR
     A[Install soar] --> B[Install app] --> C[Run app]
 </div>
