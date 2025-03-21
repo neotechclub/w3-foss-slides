@@ -70,6 +70,12 @@ New users want something that "just works" across any distro they install, be it
 ![bg left:40% 80%](https://images.unsplash.com/photo-1709718499883-7267d6ffae9c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
+# **Introduction to PkgForge**
+
+---
+# **What is soar?**
+
+---
 # **The Elephant in the Room: Why soar?**
 "Why would I use soar over existing solutions?"
 Soar doesn't attempt to replace your OS level package manager(like apt, dnf, etc)
