@@ -114,6 +114,47 @@ When I spoke to Samuel about this, he said:
 ![right:40% 240%](assets/samuel-on-ghostty.png)
 
 ---
+
+```plantuml
+@startuml
+title Flatpak vs AppImage: Execution Flow
+
+actor User
+box "Flatpak" #LightBlue
+participant "Flatpak Runtime" as FRuntime
+participant "Sandbox" as FSandbox
+participant "App (/app)" as FApp
+participant "Runtime (/usr)" as FLibs
+end box
+
+box "AppImage" #LightSalmon
+participant "AppImage File" as AFile
+participant "Runtime" as ARuntime
+participant "SquashFS Image" as AFS
+participant "AppRun" as AAppRun
+end box
+
+participant "Host System" as Host
+
+== Flatpak Execution ==
+User -> FRuntime: Execute Flatpak app
+FRuntime -> FSandbox: Create isolated environment
+FSandbox -> FApp: Load application files
+FSandbox -> FLibs: Load shared libraries
+FApp -> FLibs: Request libraries
+FApp -> Host: Limited access via portals
+
+== AppImage Execution ==
+User -> AFile: Execute file
+AFile -> ARuntime: Start runtime
+ARuntime -> AFS: Mount via FUSE
+ARuntime -> AAppRun: Execute entrypoint
+AAppRun -> Host: Run application
+
+@enduml
+```
+
+---
 # **Live Demo Time! Making a quick soar Package using SBUILD**
 
 --- 
