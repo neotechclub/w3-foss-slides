@@ -45,7 +45,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Marp.App
-        run: npx @marp-team/marp-cli@latest --html README.md -o build/README.html; mv build/README.html build/index.html
+        run: |
+          echo "Fetching Kroki.io plugins"
+          curl https://gist.githubusercontent.com/yhatt/8931dd98769bcc1c5b4b92fd1234a190/raw/94839633ae9665f688425843cbcb3e8778d2b848/marp.config.js -o build/marp.config.js
+          curl https://gist.githubusercontent.com/yhatt/8931dd98769bcc1c5b4b92fd1234a190/raw/94839633ae9665f688425843cbcb3e8778d2b848/kroki-plugin.js -o kroki-plugin.js
+
+          echo "Building Website"
+          npx @marp-team/marp-cli@latest --html README.md -o build/README.html; mv build/README.html build/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

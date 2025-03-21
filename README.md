@@ -79,21 +79,11 @@ This helps you load completely portable packages that are independent from your 
 
 ---
 # **How to use soar?**
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.5.0/+esm';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-<div class="mermaid" style="display: flex; justify-content: center;">
+
+```mermaid
 graph LR
     A[Install soar] --> B[Install app] --> C[Run app]
-</div>
-
-<style>
-  .mermaid svg {
-    width: 200%;
-    height: auto;
-  }
-</style>
+```
 
 ---
 # **Quick Live Demo! Using soar and Installing Apps**
