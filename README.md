@@ -107,25 +107,20 @@ This helps you load completely portable packages that are independent from your 
 ---
 
 # **How to use soar?**
-<div class="graph-container" style="width: 45%;">
 ```mermaid
-graph TD
-subgraph Soar
-    A1[Install Soar] --> B1[Install app] --> C1[Run app]
-end
-```
-</div>
-
-<div class="graph-container" style="width: 45%;">
-```mermaid
-graph TD
+graph LR
 subgraph Flatpak
+    direction LR
     A2[Install Flatpak] --> B2[Add Flathub repo as user]
-    B2 --> C2[Install app from Flatpak]
+    B2 --> C2[Install app from Flatpak as user]
     C2 --> D2[Run app]
 end
+subgraph Soar
+    direction LR
+    A1[Install Soar] --> B1[Install app] --> C1[Run app]
+    A1[Install Soar] --> B3[Run Directly from Soar]
+end
 ```
-</div>
 ---
 # **Quick Live Demo! Using soar and Installing Apps**
 Installing Guide: https://soar.qaidvoid.dev/installation#install-script
