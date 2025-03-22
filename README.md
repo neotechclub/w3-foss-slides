@@ -107,7 +107,6 @@ This helps you load completely portable packages that are independent from your 
 # **How to use soar?**
 
 ```mermaid
-graph LR
 graph TD
     subgraph Soar
         A1[Install Soar] --> B1[Install app] --> C1[Run app]
