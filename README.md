@@ -107,18 +107,7 @@ This helps you load completely portable packages that are independent from your 
 ---
 
 # **How to use soar?**
-<style>
-section {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-.graph-container {
-  width: 45%;
-}
-</style>
-
-<div class="graph-container">
+<div class="graph-container" style="width: 45%;">
 ```mermaid
 graph TD
 subgraph Soar
@@ -127,7 +116,7 @@ end
 ```
 </div>
 
-<div class="graph-container">
+<div class="graph-container" style="width: 45%;">
 ```mermaid
 graph TD
 subgraph Flatpak
