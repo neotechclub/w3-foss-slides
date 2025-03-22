@@ -94,10 +94,11 @@ Core Team:
 - <sub>QaidVoid (Lead Dev, also made Soar)</sub>
 - <sub>Azathothas (Lead Maintainer)</sub>
 - <sub>ahqsoftwares,Tamrakar182 (Lead for Soar Index)</sub>
+- The QR Code links to the official discord server
 
-![bg right:25% vertical](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
+![bg right:20% vertical](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
 
-![bg right:25%](assets/discord-link.png)
+![bg right:20%](assets/discord-link.png)
 
 ---
 # **What is soar?**
