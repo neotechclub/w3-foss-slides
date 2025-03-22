@@ -89,13 +89,25 @@ When I spoke to Samuel about this, he said:
 
 
 ---
-<!--# **Introduction to PkgForge**
+# **Introduction to PkgForge**
+Core Team:
+- <sub>QaidVoid (Lead Dev, also made Soar)</sub>
+- <sub>Azathothas (Lead Maintainer)</sub>
+- <sub>ahqsoftwares (Lead for Soar Index)</sub>
+- <sub>Tamrakar182 (Lead for Soar Index)</sub> 
 
---- -->
+![bg top-right](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
+
+![bg bottom-right](assets/discord-link.png)
+
+---
 # **What is soar?**
 
 Soar is a Fast, Modern, Bloat-Free Distro-Independent Package Manager that Just Works
 - Supports Static Binaries, AppImages, and other Portable formats on any *Unix-based Distro 
+- Made by Rabindra Dhakal(QaidVoid)
+- https://soar.qaidvoid.dev/
+![bg left:40% 80%](https://avatars.githubusercontent.com/u/12017109?v=4)
 ---
 # **The Elephant in the Room: Why soar?**
 "Why would I use soar over existing solutions?"
@@ -137,7 +149,7 @@ Installing Apps to System: `soar install appname`
 It's. That. Simple. 
 
 ---
-# **Live Demo Time! Making a quick soar Package using SBUILD**
+# **A quick look at the `.SBUILD` format**
 
 --- 
 <!--# **Credits**
