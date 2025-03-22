@@ -98,7 +98,7 @@ Core Team:
 
 ![bg right:25% vertical](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
 
-![bg right:25% w:32 h:32](assets/discord-link.png)
+![bg right:25% w:128 h:128](assets/discord-link.png)
 
 ---
 # **What is soar?**
