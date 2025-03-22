@@ -93,12 +93,11 @@ When I spoke to Samuel about this, he said:
 Core Team:
 - <sub>QaidVoid (Lead Dev, also made Soar)</sub>
 - <sub>Azathothas (Lead Maintainer)</sub>
-- <sub>ahqsoftwares (Lead for Soar Index)</sub>
-- <sub>Tamrakar182 (Lead for Soar Index)</sub> 
+- <sub>ahqsoftwares,Tamrakar182 (Lead for Soar Index)</sub>
 
-![top-right top](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
+![bg right:33% vertical](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
 
-![top-right bottom](assets/discord-link.png)
+![bg right:33%](assets/discord-link.png)
 
 ---
 # **What is soar?**
