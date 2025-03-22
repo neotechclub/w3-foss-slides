@@ -65,13 +65,13 @@ New users want something that "just works" across any distro they install, be it
 
 ---
 
-# **Another Elephant in the Room: Why AppImages?**
+# **Why AppImages?**
 
-Difference: | Snap | Flatpak | AppImages |
+Difference: | Snap and snapd | Flatpak and runtimes | AppImages |
 | --- | --- | --- | --- |
 | Developed by | Canonical | Community ✅ | Community ✅ | 
 | Lock in |Tied to Snap Ecosystem | No Lock in | No Lock in |
-| Dependencies | snapd and many more | Flatpak Runtime | One App = One File |
+| Dependencies | snapd and many more | Flatpak Runtimes | <sub>One App = One File</sub> |
 
 ---
 
@@ -108,6 +108,17 @@ This helps you load completely portable packages that are independent from your 
 ```mermaid
 graph LR
     A[Install soar] --> B[Install app] --> C[Run app]
+    style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style B fill:#eeeeee,stroke:#333,stroke-width:2px
+    style C fill:#d5f9e5,stroke:#333,stroke-width:2px
+    linkStyle 0 stroke:#ff9900,stroke-width:2px
+    linkStyle 1 stroke:#ff9900,stroke-width:2px
+
+
+
+
+
+
 ```
 
 ---
