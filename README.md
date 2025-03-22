@@ -83,8 +83,9 @@ Difference: | Snap and snapd | Flatpak and runtimes | AppImages |
 <sub>Previous Image from https://github.com/prusa3d/PrusaSlicer/issues/13653#issuecomment-2500109771</sub>
 
 When I spoke to Samuel about this, he said:
-![left:120% 240%](assets/samuel-update.png)
-![right:40% 240%](assets/samuel-on-ghostty.png)
+![top-left width:45% top](assets/samuel-update.png)
+![bottom-right width:45% top](assets/samuel-on-ghostty.png)
+
 
 
 ---
