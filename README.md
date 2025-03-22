@@ -108,18 +108,15 @@ This helps you load completely portable packages that are independent from your 
 
 ```mermaid
 graph LR
-    A[Install soar] --> B[Install app] --> C[Run app]
-    style A fill:#f9d5e5,stroke:#333,stroke-width:2px
-    style B fill:#eeeeee,stroke:#333,stroke-width:2px
-    style C fill:#d5f9e5,stroke:#333,stroke-width:2px
-    linkStyle 0 stroke:#ff9900,stroke-width:2px
-    linkStyle 1 stroke:#ff9900,stroke-width:2px
-
-
-
-
-
-
+graph TD
+    subgraph Soar
+        A1[Install Soar] --> B1[Install app] --> C1[Run app]
+    end
+    subgraph Flatpak
+        A2[Install Flatpak] --> B2[Add Flathub repo as user]
+        B2 --> C2[Install app from Flatpak]
+        C2 --> D2[Run app]
+    end
 ```
 
 ---
