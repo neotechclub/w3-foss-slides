@@ -96,9 +96,9 @@ Core Team:
 - <sub>ahqsoftwares,Tamrakar182 (Lead for Soar Index)</sub>
 - The QR Code links to the official discord server
 
-![bg right:20% vertical](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
+![bg right:25% vertical](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
 
-![bg right:20%](assets/discord-link.png)
+![bg right:25% w:32 h:32](assets/discord-link.png)
 
 ---
 # **What is soar?**
