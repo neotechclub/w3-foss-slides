@@ -120,6 +120,11 @@ subgraph Soar
     A1[Install Soar] --> B1[Install app] --> C1[Run app]
     A1[Install Soar] --> B3[Run Directly from Soar]
 end
+style A1 fill:#f9d5e5,stroke:#333,stroke-width:2px; // Start node style for Soar
+style A2 fill:#f9d5e5,stroke:#333,stroke-width:2px; // Start node style for Flatpak
+style C1 fill:#d5f9e5,stroke:#333,stroke-width:2px; // End node style for Soar
+style B3 fill:#d5f9e5,stroke:#333,stroke-width:2px; // End node style for Soar
+style D2 fill:#d5f9e5,stroke:#333,stroke-width:2px; // End node style for Flatpak
 ```
 ---
 # **Quick Live Demo! Using soar and Installing Apps**
