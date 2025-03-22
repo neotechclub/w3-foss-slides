@@ -144,4 +144,4 @@ It's. That. Simple.
 
 https://marp.app/
 
-View the slides: https://sounddrill31.github.io/FOSSUnited-Slides-AppImages/
+View the slides: https://sounddrill31.github.io/FOSSUnited-Slides-Soar
