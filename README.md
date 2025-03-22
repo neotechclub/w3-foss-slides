@@ -67,10 +67,10 @@ New users want something that "just works" across any distro they install, be it
 
 # **Why AppImages?**
 
-Difference: | Snap and snapd | Flatpak and runtimes | AppImages |
+Difference: | Snap and snapd | Flatpak and runtimes | AppImages and similar formats |
 | --- | --- | --- | --- |
 | Developed by | Canonical | Community ✅ | Community ✅ | 
-| Lock in |Tied to Snap Ecosystem | No Lock in | No Lock in |
+| Lock in | Tied to Snap Ecosystem | No Lock in | No Lock in |
 | Dependencies | snapd and many more | Flatpak Runtimes | <sub>One App = One File</sub> |
 
 ---
@@ -94,6 +94,8 @@ When I spoke to Samuel about this, he said:
 --- -->
 # **What is soar?**
 
+Soar is a Fast, Modern, Bloat-Free Distro-Independent Package Manager that Just Works
+- Supports Static Binaries, AppImages, and other Portable formats on any *Unix-based Distro 
 ---
 # **The Elephant in the Room: Why soar?**
 "Why would I use soar over existing solutions?"
@@ -105,19 +107,36 @@ This helps you load completely portable packages that are independent from your 
 ---
 
 # **How to use soar?**
+<style>
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.graph-container {
+  width: 45%;
+}
+</style>
 
+<div class="graph-container">
 ```mermaid
 graph TD
-    subgraph Soar
-        A1[Install Soar] --> B1[Install app] --> C1[Run app]
-    end
-    subgraph Flatpak
-        A2[Install Flatpak] --> B2[Add Flathub repo as user]
-        B2 --> C2[Install app from Flatpak]
-        C2 --> D2[Run app]
-    end
+subgraph Soar
+    A1[Install Soar] --> B1[Install app] --> C1[Run app]
+end
 ```
+</div>
 
+<div class="graph-container">
+```mermaid
+graph TD
+subgraph Flatpak
+    A2[Install Flatpak] --> B2[Add Flathub repo as user]
+    B2 --> C2[Install app from Flatpak]
+    C2 --> D2[Run app]
+end
+```
+</div>
 ---
 # **Quick Live Demo! Using soar and Installing Apps**
 Installing Guide: https://soar.qaidvoid.dev/installation#install-script
