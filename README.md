@@ -95,9 +95,9 @@ Core Team:
 - <sub>Azathothas (Lead Maintainer)</sub>
 - <sub>ahqsoftwares,Tamrakar182 (Lead for Soar Index)</sub>
 
-![bg right:33% vertical](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
+![bg right:45% vertical](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
 
-![bg right:33%](assets/discord-link.png)
+![bg right:45%](assets/discord-link.png)
 
 ---
 # **What is soar?**
