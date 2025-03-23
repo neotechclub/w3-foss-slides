@@ -24,18 +24,6 @@ Also a package maintainer for Soar, for Pixelpulse2
 My Website: https://sounddrill31.github.io
 
 --- 
-<!--
-# **About The Presenters**
-<!--![bg left:40% 80%](https://avatars.githubusercontent.com/u/84176052?v=4) -->
-Speaker: Aditya
-
-About me: 
-
-TODO: Fill
-
-My Website: 
-
---- -->
 # **Topics Covered**
 - Why is any of this needed?
 - soar and PkgForge
