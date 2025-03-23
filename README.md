@@ -14,10 +14,8 @@ With Self-Packaged Linux Apps
 
 <sub>Providing a Quick, Easy and Painless Experience</sub>
 
---- 
-# **About The PkgForge Team**
-
 ---
+
 # **About The Presenters**
 ![bg right:40% 80%](https://avatars.githubusercontent.com/u/84176052?v=4)
 Speaker: Souhrud Reddy
@@ -93,12 +91,25 @@ When I spoke to Samuel about this, he said:
 Core Team:
 - <sub>QaidVoid (Lead Dev, also made Soar)</sub>
 - <sub>Azathothas (Lead Maintainer)</sub>
-- <sub>ahqsoftwares,Tamrakar182 (Lead for Soar Index)</sub>
-- The QR Code links to the official discord server
+- <sub>ahqsoftwares, Tamrakar182 (Lead for Soar Index)</sub>
+
+
+###### The QR Code links to the official discord
 
 ![bg right:25% vertical](https://github.com/pkgforge/docs/blob/main/.gitbook/assets/pkgforge-community.png?raw=true)
 
 ![bg right:25% w:192 h:192](assets/discord-link.png)
+
+---
+Worthy Mentions/Massive Contributions from:
+- VHSGunzo(Enhanced AppImage and ELF tools)
+    - Worked on uruntime for AppImage(and similar formats)
+    - Made building static binaries trivial using `sharun` and `lib4bin`
+- Ivan-HC (Made AppImage management easier with AM/AppMan)
+
+![bg left:25% vertical w:256 h:256](https://avatars.githubusercontent.com/u/57139938?v=4)
+
+![bg left:25% w:256 h:256](https://avatars.githubusercontent.com/u/88724353?v=4)
 
 ---
 # **What is soar?**
