@@ -101,7 +101,7 @@ My tiny web portfolio is a testament to what's possible when you collaborate: wi
 
 **Scan the QR to see what a non-coder can do.**  <sub>(Spoiler: It's a lot)</sub>
 
-https://sounddrill31.github.io/webwork
+[sounddrill31.github.io/webwork](https://sounddrill31.github.io/webwork)
 
 ![bg right:35% vertical](https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=https://sounddrill31.github.io/webwork)
 
@@ -126,4 +126,7 @@ This presentation was made with Markdown, because we practice what we preach: si
 
 View the slides here:
 <sub>(Yes, this is a website hosted on github pages)</sub>
-`w1-kickoff-slides`
+
+[w1-kickoff-slides.neotechclub.qzz.io](w1-kickoff-slides.neotechclub.qzz.io)
+
+![bg right:35% vertical](https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=w1-kickoff-slides.neotechclub.qzz.io)
