@@ -32,7 +32,7 @@ Our mission is to explore the frontiers of technology, from AI and development t
 
 **Official Site:** https://neotechclub.qzz.io
 
-![bg right:20% w:192 h:192](https://api.qrserver.com/v1/create-qr-code/?size=192x192&data=https://neotechclub.qzz.io)
+![bg right:20%](https://api.qrserver.com/v1/create-qr-code/?size=192x192&data=https://neotechclub.qzz.io)
 
 ---
 
@@ -103,7 +103,7 @@ My tiny web portfolio is a testament to what's possible when you collaborate: wi
 
 [sounddrill31.github.io/webwork](https://sounddrill31.github.io/webwork)
 
-![bg right:35% vertical](https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=https://sounddrill31.github.io/webwork)
+![bg right:35% vertical](https://api.qrserver.com/v1/create-qr-code/?size=128x128&data=https://sounddrill31.github.io/webwork)
 
 ---
 
@@ -129,4 +129,4 @@ View the slides here:
 
 [w1-kickoff-slides.neotechclub.qzz.io](w1-kickoff-slides.neotechclub.qzz.io)
 
-![bg right:35% vertical](https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=w1-kickoff-slides.neotechclub.qzz.io)
+![bg right:40% vertical](https://api.qrserver.com/v1/create-qr-code/?size=128x128&data=w1-kickoff-slides.neotechclub.qzz.io)
