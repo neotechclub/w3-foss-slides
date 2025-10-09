@@ -125,7 +125,7 @@ Let's talk.
 This presentation was made with Markdown, because we practice what we preach: simple, effective tools.
 
 View the slides here:
-<sub>(Yes, this is a website hosted on github pages)</sub>
+<sub>(Yes, this is a static website hosted on cloudflare pages)</sub>
 
 [w1-kickoff-slides.neotechclub.qzz.io](w1-kickoff-slides.neotechclub.qzz.io)
 
