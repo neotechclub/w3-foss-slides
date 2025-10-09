@@ -1,11 +1,12 @@
 #!/usr/bin/bash
 
-# git clone https://github.dev/sounddrill31/FOSSUnited-slides-appimages; cd FOSSUnited-slides-appimages; bash build.sh
+# git clone https://github.dev/neotechclub/w1-kickoff-slides; cd w1-kickoff-slides; bash build.sh
 # Output will be in build/ folder
 
-echo "Fetching Kroki.io plugins"
-curl https://gist.githubusercontent.com/yhatt/8931dd98769bcc1c5b4b92fd1234a190/raw/94839633ae9665f688425843cbcb3e8778d2b848/marp.config.js -o build/marp.config.js
-curl https://gist.githubusercontent.com/yhatt/8931dd98769bcc1c5b4b92fd1234a190/raw/94839633ae9665f688425843cbcb3e8778d2b848/kroki-plugin.js -o build/kroki-plugin.js
+#echo "Fetching Kroki.io plugins"
+#curl https://gist.githubusercontent.com/yhatt/8931dd98769bcc1c5b4b92fd1234a190/raw/94839633ae9665f688425843cbcb3e8778d2b848/marp.config.js -o build/marp.config.js
+#curl https://gist.githubusercontent.com/yhatt/8931dd98769bcc1c5b4b92fd1234a190/raw/94839633ae9665f688425843cbcb3e8778d2b848/kroki-plugin.js -o build/kroki-plugin.js
 
 echo "Building Website"
-npx @marp-team/marp-cli@latest -c build/marp.config.js --html README.md -o build/index.html
+#npx @marp-team/marp-cli@latest -c build/marp.config.js --html README.md -o build/index.html
+npx @marp-team/marp-cli@latest --html README.md -o build/index.html
