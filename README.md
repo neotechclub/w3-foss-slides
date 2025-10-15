@@ -139,6 +139,7 @@ Privacy isn't about having something to hide. It's about having something to pro
 ## Privacy
 
 <iframe width="50%" height="50" src="https://www.youtube.com/embed/c5tNh317sv8" title="11 EASY Privacy Tips ANYONE can do (and should!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## Security
