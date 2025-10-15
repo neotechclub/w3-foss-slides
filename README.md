@@ -112,7 +112,7 @@ Here are a few easy switches.
 - Full of ads
 - Proprietary
 
-![logo w:256](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/256px-Google_Play_Store_badge_EN.svg.png)
+![logo w:212 h:91](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/256px-Google_Play_Store_badge_EN.svg.png)
 
 </div>
 <div>
@@ -121,7 +121,7 @@ Here are a few easy switches.
 - No tracking or ads, transparent disclosure
 - Only Open-Source apps
 
-![logo w:256](https://raw.githubusercontent.com/f-droid/artwork/refs/heads/master/badge/get-it-on-en.png)
+![logo w:212 h:91](https://raw.githubusercontent.com/f-droid/artwork/refs/heads/master/badge/get-it-on-en.png)
 
 </div>
 </div>
@@ -147,12 +147,10 @@ Privacy isn't about having something to hide. It's about having something to pro
 
 <div>
 
-<div style="font-size: small;">
 
 - ***Total Control:*** A government led by "Big Brother" watches everyone.
 - ***Secret Rebellion:*** One man dares to think for himself and falls in love, defying the system in small ways.
 - ***Individuality Crushed:*** The Party captures him, breaks his spirit, and forces him to love his oppressor.
-</div>
 
 </div>
 </div>
