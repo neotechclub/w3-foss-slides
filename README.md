@@ -132,11 +132,18 @@ Privacy isn't about having something to hide. It's about having something to pro
 
 ---
 
-# Here's a quick video on why it matters.
+# Here are a few quick videos on why it matters.
 
 --- 
 
-<iframe title="5 Easy Steps to Protect Yourself Online" width="60%" height="60%" src="https://neat.tube/videos/embed/1GaeNH2GyUark4kNXCcL6Q?subtitle=en" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe>
+## Privacy
+
+<iframe width="50%" height="50" src="https://www.youtube.com/embed/c5tNh317sv8" title="11 EASY Privacy Tips ANYONE can do (and should!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
+
+## Security
+
+<iframe title="5 Easy Steps to Protect Yourself Online" width="50%" height="50%" src="https://neat.tube/videos/embed/1GaeNH2GyUark4kNXCcL6Q?subtitle=en" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe>
 
 ---
 
