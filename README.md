@@ -21,6 +21,25 @@ style: |
     width: 150px;
     height: 150px;
   }
+  .container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 30px;
+    align-items: center;
+    height: 100%;
+    text-align: left;
+  }
+  .left-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .left-panel img {
+    max-width: 80%;
+    height: auto;
+  }
 
 footer: 'NeoTech Club | Exploring FOSS & Digital Privacy for Everyday People'
 ---
@@ -93,7 +112,7 @@ Here are a few easy switches.
 - Full of ads
 - Proprietary
 
-![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/256px-Google_Play_Store_badge_EN.svg.png)
+![logo w:256](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/256px-Google_Play_Store_badge_EN.svg.png)
 
 </div>
 <div>
@@ -102,7 +121,7 @@ Here are a few easy switches.
 - No tracking or ads, transparent disclosure
 - Only Open-Source apps
 
-![logo](https://raw.githubusercontent.com/f-droid/artwork/refs/heads/master/badge/get-it-on-en.png)
+![logo w:256](https://raw.githubusercontent.com/f-droid/artwork/refs/heads/master/badge/get-it-on-en.png)
 
 </div>
 </div>
@@ -113,7 +132,34 @@ Here are a few easy switches.
 
 Privacy isn't about having something to hide. It's about having something to protect.
 
-Here's a quick video on why it matters.
+---
+
+
+
+### **Why This Matters: A Story**
+##### George Orwell's *1984*
+
+<div class="container">
+<div class="left-panel">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg" alt="1984 Book Cover" width="250">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf" alt="QR code for PDF download" width="200">
+</div>
+
+<div>
+
+<div style="font-size: xx-small;">
+
+- ***Total Control:*** A government led by "Big Brother" watches everyone.
+- ***Secret Rebellion:*** One man dares to think for himself and falls in love, defying the system in small ways.
+- ***Individuality Crushed:*** The Party captures him, breaks his spirit, and forces him to love his oppressor.
+</div>
+
+</div>
+</div>
+
+---
+
+# Here's a quick video on why it matters.
 
 --- 
 
@@ -148,15 +194,20 @@ Let's get some great FOSS apps on your phone. 🚀
 
 This is your first step. F-Droid is a catalogue of free and open-source software for Android. It's the only app store you'll ever need.
 
-**Scan the QR to download F-Droid.**
+**Scan the QR to download 
+F-Droid.**
 
 ![bg right:35% vertical w:256 h:256](https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=https://f-droid.org/F-Droid.apk)
 
 ---
 
-## **1.5. Set up IzzyOnDroid repository.**
+#### **1.5. Set up IzzyOnDroid repository for more apps.**
 From within F-Droid, scan the following QR code
-- A 3rd Party F-Droid repo 
+
+
+F-Droid ->Settings->Repositories->➕Button (bottom right)
+
+Scan QR code shown in the screen
 
 ![bg right:35% vertical w:256 h:256](https://apt.izzysoft.de/shared/images/fdroid_repo_qr.png)
 
