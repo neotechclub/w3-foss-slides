@@ -119,15 +119,16 @@ Privacy isn't about having something to hide. It's about having something to pro
 
 ### **Why This Matters: A Story**
 ##### George Orwell's *1984*
-![bg right h:250](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf")
+![bg vertical right h:250](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf")
 
-![bg vertical right w:121 h:121](https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg")
+![bg right w:121 h:121](https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg")
 
-<small>
+<div style="font-size: small;">
+
 - ***Total Control:*** A government led by "Big Brother" watches everyone.
 - ***Secret Rebellion:*** One man dares to think for himself and falls in love, defying the system in small ways.
 - ***Individuality Crushed:*** The Party captures him, breaks his spirit, and forces him to love his oppressor.
-</small>
+</div>
 
 ---
 
