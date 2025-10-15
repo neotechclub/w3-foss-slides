@@ -21,25 +21,6 @@ style: |
     width: 150px;
     height: 150px;
   }
-  .container {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    gap: 30px;
-    align-items: center;
-    height: 100%;
-    text-align: left;
-  }
-  .left-panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-  }
-  .left-panel img {
-    max-width: 80%;
-    height: auto;
-  }
 
 footer: 'NeoTech Club | Exploring FOSS & Digital Privacy for Everyday People'
 ---
@@ -138,24 +119,15 @@ Privacy isn't about having something to hide. It's about having something to pro
 
 ### **Why This Matters: A Story**
 ##### George Orwell's *1984*
+![bg left h:250](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf">
 
-<div class="container">
-<div class="left-panel">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf" alt="QR code for PDF download" width="200">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg" alt="1984 Book Cover" height="250">
-</div>
+![bg right w:121 h:121](https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg")
 
-<div>
-
-<div style="font-size: medium;">
-
+<small>
 - ***Total Control:*** A government led by "Big Brother" watches everyone.
 - ***Secret Rebellion:*** One man dares to think for himself and falls in love, defying the system in small ways.
 - ***Individuality Crushed:*** The Party captures him, breaks his spirit, and forces him to love his oppressor.
-</div>
-
-</div>
-</div>
+</small>
 
 ---
 
