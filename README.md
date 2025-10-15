@@ -125,7 +125,7 @@ Privacy isn't about having something to hide. It's about having something to pro
 
 <div style="font-size: medium;">
 
-- ***Total Control:*** A government led by "Big Brother" watches everyone.
+- ***Total Control:*** A government led by "Big Brother" watches everyone. Independent thought is the ultimate crime.
 - ***Secret Rebellion:*** One man dares to think for himself and falls in love, defying the system in small ways.
 - ***Individuality Crushed:*** The Party captures him, breaks his spirit, and forces him to love his oppressor.
 </div>
