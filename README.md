@@ -119,7 +119,7 @@ Privacy isn't about having something to hide. It's about having something to pro
 
 ### **Why This Matters: A Story**
 ##### George Orwell's *1984*
-![bg vertical h:250](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf")
+![bg right h:250](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf")
 
 ![bg w:121 h:121](https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg")
 
