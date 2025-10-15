@@ -40,7 +40,7 @@ We're **NeoTech Club**! We're the first batch, which means we're all figuring th
 
 Thankfully, we're not totally on our own. We're part of **Mukti**, a larger community dedicated to FOSS, that helps guide us. Think of them as the wise mentors in our origin story.
 
-![bg right:25% w:200 h:200](https://media.licdn.com/dms/image/v2/D560BAQERWgcuy4dsOw/company-logo_200_200/company-logo_200_200/0/1693917376266?e=1763596800&v=beta&t=35SFSx-4s0pgUnJCGknvRmTM6n5RnN8AvdIpq53Mroc)
+![bg right:25% w:200 h:200](https://avatars.githubusercontent.com/u/152704361?v=4)
 
 ---
 
