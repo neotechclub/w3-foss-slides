@@ -1,132 +1,204 @@
 ---
-theme: gaia
+theme: uncover
 _class: lead
 paginate: true
 backgroundColor: #fff
 marp: true
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+style: |
+  .side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+  .side-by-side h2 {
+    margin-top: 0;
+  }
+  .side-by-side p {
+    margin-bottom: 0;
+  }
+  img[alt~="logo"] {
+    width: 150px;
+    height: 150px;
+  }
+
+footer: 'NeoTech Club | Exploring FOSS & Digital Privacy for Everyday People'
 ---
 
-# **NeoTechClub**
-## Kickoff Session
+# **So, You Got a New Device...**
+## But do you really *own* it?
 
-<sub>Building the Future, One Line of Code at a Time.</sub>
-
----
-
-# **What We'll Cover Today**
-
-- About the Club
-- About the Presenters
-- Our Journey & Timeline
-- Why Are We Even Doing This?
-- "But I can't code!" (The fun part)
-- Q&A, Feedback, and Good Vibes
-
----
-
-# **About The Club**
-
-NeoTechClub is a space for creators, thinkers, and tinkerers of all skill levels.
-Our mission is to explore the frontiers of technology, from AI and development to design and ethics, in a collaborative and inclusive environment. No gatekeeping here!
-
-**Official Site:** https://neotechclub.qzz.io
-
-![bg right:20% w:192 h:192](https://api.qrserver.com/v1/create-qr-code/?size=192x192&data=https://neotechclub.qzz.io)
+<sub>Let's talk about the code that runs our lives.</sub>
 
 ---
 
-# **About The Presenters**
+# **Who Are We, Again?**
 
-![bg left:40% 60%](https://avatars.githubusercontent.com/u/142168122?v=4)
+We're **NeoTech Club**! We're the first batch, which means we're all figuring this out together. It's a journey, and we're glad you're on it with us.
 
-**Joel Paul** <sup>Maker</sup>
-- 
-- Programming, Self Exploration and Community Building
+--- 
 
+Thankfully, we're not totally on our own. We're part of **Mukti**, a larger community dedicated to FOSS, that helps guide us. Think of them as the wise mentors in our origin story.
 
-TODO: Update this page
-- Website: https://jack-pots.github.io/
+![bg right:25% w:200 h:200](https://media.licdn.com/dms/image/v2/D560BAQERWgcuy4dsOw/company-logo_200_200/company-logo_200_200/0/1693917376266?e=1763596800&v=beta&t=35SFSx-4s0pgUnJCGknvRmTM6n5RnN8AvdIpq53Mroc)
 
 ---
 
-# **About The Presenters**
+# **The Unseen Listeners** 👂
+Ever talked about something, only to see an ad for it moments later? Spooky, right?
 
-![bg left:40% 60%](https://avatars.githubusercontent.com/u/84176052?v=4)
+Your devices, apps, and services are constantly collecting data. Your clicks, your location, your conversations... it's all product. You're not the customer; you're the product being sold.
 
-**Souhrud Reddy** <sup>Tinkerer</sup>
-- 
-- Hardware, Open Source and Linux Enjoyer
-- Experimenting with simple<br>(AI-Assisted) web-dev
-- Website: https://sounddrill31.github.io
+We're here to show you how to take back control 📲
+
 
 ---
 
-# **Our Journey & Timeline**
-A brief, emotionally-charged, and probably-not-to-scale history of us.
-- **[Jan 2025]**: The "Wouldn't it be cool if..." moment. 
-- **[March 2025]**: Met up with Het Joshi and the Mukti team and planned something out.
-- **[April 2025]**: First chaotic planning session.<sub>(lots of procrastination)</sub>
-- **Today**: Launch Day! You're all here!
-- **The Future**: Workshops, projects, and maybe world domination? (The ethical kind, of course.)
+# **The Hero: FOSS**
+
+**FOSS** stands for **Free and Open-Source Software**.
+- **Free** as in *freedom*, not just free of cost. You have the freedom to see, change, and share the code.
+- **Open-Source** means the code is public. Anyone can check it for sneaky trackers or security flaws.
+
+--- 
+
+It’s about **transparency** and **community**, not corporate secrets.
 
 ---
 
-# **Why Do This? Is There a Need?**
+### **FOSS is Already Everywhere!**
+You're using it right now, you just might not know it😉
 
-Tech can be intimidating. We're here to change that.
+- The **Android** on your phone? Based on Open-Source AOSP and the Linux Kernel.
+- The **servers** that power the internet? Almost all of them are running Open-Source Linux Distros.
+- Your **smartwatch**? Probably running some version of Android Wear or Linux too!
+###### It's the invisible backbone of the modern tech world.
 
+---
+# **Let's Make a Change**
 
-This club exists to create a space where questions are encouraged, collaboration is key, and you don't have to be a "guru" to participate. 
+Ready to swap out some of those data-hungry apps for privacy-respecting alternatives?
 
-
-# We're building a community, not just a portfolio!
-
-<!-- ![bg blur:2px brightness:0.8](https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?q=80&w=1470&auto=format&fit=crop) -->
+Here are a few easy switches.
 
 ---
 
-# **"But I'm Not a Programmer!"**
+## **App Stores: The Gateway**
 
-...and that is perfectly fine. Seriously.
+<div class="side-by-side">
+<div>
 
-Tech is more than just code. It's design, ethics, project management, and a million other things.
+### Google Play Store
+- Tracks you
+- Full of ads
+- Proprietary
 
-A project needs many things not related to programming!
+![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/256px-Google_Play_Store_badge_EN.svg.png)
+
+</div>
+<div>
+
+#### F-Droid/IzzyOnDroid
+- No tracking or ads, transparent disclosure
+- Only Open-Source apps
+
+![logo](https://raw.githubusercontent.com/f-droid/artwork/refs/heads/master/badge/get-it-on-en.png)
+
+</div>
+</div>
 
 ---
-Take me for example: I can get a simpler server running maintain repos and deploy apps, but my web dev skills are... terrible. 
 
-My tiny web portfolio is a testament to what's possible when you collaborate: with people and with tools.
+# **Let's Talk Privacy**
 
-**Scan the QR to see what a non-coder can do.**  <sub>(Spoiler: It's a lot)</sub>
+Privacy isn't about having something to hide. It's about having something to protect.
 
-[sounddrill31.github.io/webwork](https://sounddrill31.github.io/webwork)
+Here's a quick video on why it matters.
 
-![bg right:35% vertical w:192 h:192](https://api.qrserver.com/v1/create-qr-code/?size=192x192&data=https://sounddrill31.github.io/webwork)
+--- 
+
+<iframe title="5 Easy Steps to Protect Yourself Online" width="100%" height="100%" src="https://neat.tube/videos/embed/1GaeNH2GyUark4kNXCcL6Q?subtitle=en" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe>
 
 ---
 
+### **Privacy vs. Security vs. Anonymity**
+They are not the same thing!
+###### <sub>Snippets from PrivacyGuides.org</sub>
 
-# **Questions, Suggestions, Feedback?**
+> <sup>**Privacy**</sup> is the assurance that your data is only seen by the parties you intend to view it.
 
-The floor is yours.
+> <sup>**Security**</sup> is the ability to trust the applications you use.
 
-What do you want to see? 
+> <sup>**Anonymity**</sup> is the ability to act without a persistent identifier.
 
-What are you excited about? What's your favorite pizza topping and why is it not pineapple?
+--- 
 
-Let's talk.
+Want to learn more? Check out Privacy Guides.
+
+![bg right:25% w:192 h:192](https://api.qrserver.com/v1/create-qr-code/?size=192x192&data=https://www.privacyguides.org/en/basics/why-privacy-matters/)
+
+---
+# **What You Can Do... Right Now!**
+
+Let's get some great FOSS apps on your phone. 🚀
+
+---
+
+## **1. Get the Best App Store: F-Droid**
+
+This is your first step. F-Droid is a catalogue of free and open-source software for Android. It's the only app store you'll ever need.
+
+**Scan the QR to download F-Droid.**
+
+![bg right:35% vertical w:256 h:256](https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=https://f-droid.org/F-Droid.apk)
+
+---
+
+## **1.5. Set up IzzyOnDroid repository.**
+From within F-Droid, scan the following QR code
+- A 3rd Party F-Droid repo 
+
+![bg right:35% vertical w:256 h:256](https://apt.izzysoft.de/shared/images/fdroid_repo_qr.png)
+
+---
+
+## **2. Secure Your Accounts: Aegis**
+Ditch Google Authenticator. **Aegis** is an open-source 2FA app that lets you back up your codes, lock the app with a password, and gives you full control. Find it on F-Droid!
+
+![bg left:35% w:200 h:200](https://f-droid.org/repo/com.beemdevelopment.aegis/en-US/icon_C951ZFTL5UuK5VK6KaIOnVy5NNb0Wqe8asl4v1fSXLI=.png)
+
+---
+
+## **3. Ditch Google Apps: Fossify**
+Phone, calendar, files, gallery... **Fossify** offers a complete suite of simple, ad-free, open-source apps to replace the default ones<sub>that do not send data private back!</sub>
+
+![bg right:25% w:192 h:192](https://api.qrserver.com/v1/create-qr-code/?size=192x192&data=https://www.fossify.org/apps/)
+
+---
+
+## **4. Scan Docs Without Scanners**
+Need to scan a document? Don't use CamScanner. Use **Open Source Document Scanner**. No ads, no watermarks, no selling your data.
+You can install it directly from 
+F-Droid<sup>(through izzyondroid)</sup>
+
+![bg right:35% vertical w:256 h:256](https://apt.izzysoft.de/fdroid/repo/com.akylas.documentscanner/en-US/icon.png)
+
+---
+
+# **Questions & Ideas?**
+
+The floor is yours!
+
+What are you curious about? What tool do you want a FOSS alternative for?
+
+Let's chat.
 
 ---
 
 ## **Thanks for Coming!**
 
-This presentation was made with Markdown, because we practice what we preach: simple, effective tools.
+Let's build a more open, private, and awesome future together.
 
-View the slides here:
-<sub>(Yes, this is a static website hosted on cloudflare pages)</sub>
-
-[w1-kickoff-slides.neotechclub.qzz.io](w1-kickoff-slides.neotechclub.qzz.io)
-
-![bg right:35% vertical w:192 h:192](https://api.qrserver.com/v1/create-qr-code/?size=192x192&data=w1-kickoff-slides.neotechclub.qzz.io)
+---
+### **A Quick Legal Note**
+The logos for Google, Chrome, Android, etc., are trademarks of their respective owners. Their use here is for illustrative and educational purposes only, under fair use. We are not affiliated with or endorsed by any of these companies. <sub>Phew, glad we got that out of the way :D</sub>
