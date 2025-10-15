@@ -121,9 +121,9 @@ Privacy isn't about having something to hide. It's about having something to pro
 ##### George Orwell's *1984*
 ![bg vertical right h:250](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf")
 
-![bg right w:121 h:121](https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg")
+![bg vertical right w:121 h:121](https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg")
 
-<div style="font-size: small;">
+<div style="font-size: medium;">
 
 - ***Total Control:*** A government led by "Big Brother" watches everyone.
 - ***Secret Rebellion:*** One man dares to think for himself and falls in love, defying the system in small ways.
