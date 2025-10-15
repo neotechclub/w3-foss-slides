@@ -141,13 +141,13 @@ Privacy isn't about having something to hide. It's about having something to pro
 
 <div class="container">
 <div class="left-panel">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg" alt="1984 Book Cover" width="250">
 <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf" alt="QR code for PDF download" width="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/1984_first_edition_cover.jpg" alt="1984 Book Cover" height="250">
 </div>
 
 <div>
 
-<div style="font-size: xx-small;">
+<div style="font-size: small;">
 
 - ***Total Control:*** A government led by "Big Brother" watches everyone.
 - ***Secret Rebellion:*** One man dares to think for himself and falls in love, defying the system in small ways.
@@ -163,7 +163,7 @@ Privacy isn't about having something to hide. It's about having something to pro
 
 --- 
 
-<iframe title="5 Easy Steps to Protect Yourself Online" width="100%" height="100%" src="https://neat.tube/videos/embed/1GaeNH2GyUark4kNXCcL6Q?subtitle=en" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe>
+<iframe title="5 Easy Steps to Protect Yourself Online" width="50%" height="50%" src="https://neat.tube/videos/embed/1GaeNH2GyUark4kNXCcL6Q?subtitle=en" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe>
 
 ---
 
